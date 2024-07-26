@@ -5,6 +5,8 @@ import Portfolio from './components/portfolio/Portfolio';
 import Timeline from './components/timeline/Timeline';
 import Navbar from './components/navbar/Navbar';
 import { useEffect } from 'react';
+import resumePDF from '../assets/TrietHa_Resume.pdf';
+
 
 const App = () => {
   useEffect(() => {
@@ -45,7 +47,7 @@ const App = () => {
               Building Tommorrow&apos;s Technology Today with a Focus on AI
             </p>
             <a
-              href="src/assets/TrietHa_Resume.pdf"
+              href={resumePDF}
               className="inline-block bg-opacity-20 bg-transparent border border-purple-700 rounded-lg p-4 mb-12 text-purple-300 hover:text-purple-800 hover:bg-opacity-30 transition-colors duration-300"
               target="_blank"
               rel="noopener noreferrer"
