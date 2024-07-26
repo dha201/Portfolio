@@ -14,5 +14,5 @@ export default defineConfig({
     }
   },
   publicDir: 'public',
-  assetsInclude: ['**/*.PNG', '**/*.jpg', '**/*.jpeg', '**/*.gif', '**/*.svg']
+  assetsInclude: ['**/*.PNG', '**/*.jpg', '**/*.jpeg', '**/*.gif', '**/*.svg', '**/*.pdf']
 });
