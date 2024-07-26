@@ -5,7 +5,7 @@ import Portfolio from './components/portfolio/Portfolio';
 import Timeline from './components/timeline/Timeline';
 import Navbar from './components/navbar/Navbar';
 import { useEffect } from 'react';
-import resumePDF from '../assets/TrietHa_Resume.pdf';
+import resumePDF from '../assets/trietresume.pdf';
 
 
 const App = () => {
